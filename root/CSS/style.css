@@ -1,0 +1,54 @@
+body{
+	background-color: rgb(255, 253, 253);
+}
+
+p {
+	width: 1850px;
+	color: rgb(78, 86, 90);
+}
+img{
+	width: 250px;
+	border-radius: 20px;
+	border: 7px solid grey;
+	box-shadow: 10px 10px 5px rgb(61, 57, 57);
+}
+ul{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    overflow: hidden;
+    list-style-type: none;
+	}
+ul li {
+    float: left;
+    width: 100px;
+}
+ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	text-align: center;
+  }
+td{
+	padding: 8px;
+}
+th{
+	color: rgb(22, 22, 22);
+	background-color: aqua;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+	background-color: black;	
+	text-align: center;
+	padding: 40px;
+	width: 1850px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
